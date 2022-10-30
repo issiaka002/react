@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
+import Navigation from '../components/Navigation';
 
 class Home extends Component {
       render() {
             return (
                   <div>
-                        <div>
+                        <Navigation/>
                               <h1>
                                     ACCEUIL 
-                                    <p>
-                                          Bienvenue sur mon site ...
-                                    </p>
                               </h1>
-                        </div>
+                              <p>
+                                     Bienvenue sur mon site ...
+                              </p>
                   </div>
             );
       }
