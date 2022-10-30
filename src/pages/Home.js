@@ -9,7 +9,7 @@ class Home extends Component {
                               <h1>
                                     ACCEUIL 
                               </h1>
-                              <p>
+                              <p className='text-3xl'>
                                      Bienvenue sur mon site ...
                               </p>
                   </div>

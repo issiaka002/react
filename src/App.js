@@ -6,7 +6,7 @@ import Service from './pages/Service';
 
 const App = () => {
   return (
-    <div>
+    <div className='bg-blue-500 '>
         <BrowserRouter>
               <Routes>
                     <Route path="/" element={<Home/>}></Route>
