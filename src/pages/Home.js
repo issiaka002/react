@@ -6,12 +6,16 @@ class Home extends Component {
             return (
                   <div>
                         <Navigation/>
-                              <h1>
-                                    ACCEUIL 
-                              </h1>
-                              <p className='text-3xl'>
-                                     Bienvenue sur mon site ...
-                              </p>
+
+
+
+
+
+
+
+
+
+                              
                   </div>
             );
       }
