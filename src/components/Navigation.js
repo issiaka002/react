@@ -1,19 +1,21 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import './Navigation.css';
 
 const Navigation = () => {
       return (
             <div className='Navigation'>
-                  <ul>
+                  <ul className='menu flex'>
                         <NavLink to="/">
-                              <li>Home</li>
-                        </NavLink>
-                        <NavLink to="/About">
-                              <li>About</li>
+                              <li>Accueil</li>
                         </NavLink>
                         <NavLink to="/Service">
-                              <li>Service</li>
+                              <li>Add tech</li>
                         </NavLink>
+                        <NavLink to="/About">
+                              <li>Lste tech</li>
+                        </NavLink>
+
                   </ul>
                   
             </div>

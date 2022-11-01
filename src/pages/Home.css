@@ -1,0 +1,11 @@
+h1{
+      font-size: 5rem;
+}
+h1 span{
+      color: purple;
+      font-size: 5.5rem;
+}
+p{
+      color: grey;
+      font-size: 1.3rem;
+}

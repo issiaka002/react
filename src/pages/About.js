@@ -6,7 +6,7 @@ class About extends Component {
             return (
                   <div>
                         <Navigation/>
-                        <h1 className='"text-gray-100 '>
+                        <h1 >
                               About 
                         </h1>
                   </div>
